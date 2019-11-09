@@ -4,10 +4,11 @@ import PageNotFound from './components/PageNotFound'
 import { Route, Switch } from 'react-router-dom'
 
 const App = () => (
-    <Switch>
-      <Route exact path="/" component={Home} />
-      <Route component={PageNotFound} />
-    </Switch>
+    // <Switch>
+    //   <Route exact path="/" component={Home} />
+    //   <Route component={PageNotFound} />
+    // </Switch>
+    <Home />
 )
 
 export default App
